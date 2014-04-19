@@ -1,9 +1,29 @@
-dist
-cabal-dev
+# General
+\#*#
+.*~
+*~
+.#*
+*.swp
+.DS_Store
+.gdb_history
+TAGS
+# Object files
+*.a
 *.o
+*.so
 *.hi
+*.p_hi
 *.chi
 *.chs.h
+a.out
+# autotool
+autom4te.cache
+stamp-h1
+# misc
+*.sqlite
+Main
+dist/
+cabal-dev/
 .virtualenv
 .hsenv
 .cabal-sandbox/
